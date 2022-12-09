@@ -12,7 +12,7 @@ public class Person {
     }
 
     public boolean Equals(Person other) {
-        return identifier == other.identifier;
+        return identifier.equals(other.identifier);
     }
 
     public int getAge() {
